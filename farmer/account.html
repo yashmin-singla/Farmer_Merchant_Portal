@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../farmer/css files/account.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="../images/logo.jpeg" alt="" class="rounded-circle">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item ">
+                <a class="nav-link" href="./home.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./loan.html">Loan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./apmc.html">APMC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./account.html">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Logout</a>
+              </li>
+          
+              
+            </ul>
+            
+          </div>
+        </div>
+        </nav>
+      </header>
+
+      <section>
+        <div class="container">
+            <div class="user singupBx">
+                <div class="formBx">
+
+                  <form id="personal_info">
+                    <h2>Personal Information</h2>
+                    <br>
+                    <div class="form-group">
+                      <label for="input1" class="i1">Name</label>
+                      <input type="text" class="form-control" id="input1" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="input2" class="i1">Email</label>
+                      <input type="email" class="form-control" id="input2" aria-describedby="emailHelp" placeholder="Enter email" value="">
+                    </div>
+                    <div class="form-group">
+                      <label for="input3" class="i1">Phone number</label>
+                      <input type="number" class="form-control" id="input3" placeholder="Enter Phone number">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="input4" class="i1">State</label>
+                      <input type="text" class="form-control" id="input4" placeholder="Enter State">
+                    </div>
+                    <div class="form-group">
+                      <label for="input5" class="i1">City</label>
+                      <input type="text" class="form-control" id="input5" placeholder="Enter State">
+                    </div>
+                    <br>
+                    <h2>Crop Information</h2>
+                    <div class="crop">
+                      <p class="crop">Wheat</p>
+                      <div class="form-group">
+                        <label for="input6" class="i2">Crop Price (per Quintal)</label>
+                        <input type="number" class="form-control" id="wheat_price" placeholder="Enter crop price">
+                      </div>
+                      <div class="form-group">
+                        <label for="input7" class="i2">Crop Quantity (per Quintal)</label>
+                        <input type="number" class="form-control" id="wheat_quantity" placeholder="Enter crop quantity">
+                      </div>
+                      <br>
+
+                      <p class="crop">Rice</p>
+                      <div class="form-group">
+                        <label for="input7" class="i2">Crop Price (per Quintal)</label>
+                        <input type="number" class="form-control" id="rice_price" placeholder="Enter crop price">
+                      </div>
+                      <div class="form-group">
+                        <label for="input7" class="i2">Crop Quantity (per Quintal)</label>
+                        <input type="number" class="form-control" id="rice_quantity" placeholder="Enter crop quantity">
+                      </div>
+<br>
+                      <p class="crop">Maize</p>
+                      <div class="form-group">
+                        <label for="input8" class="i2">Crop Price (per Quintal)</label>
+                        <input type="number" class="form-control" id="maize_price" placeholder="Enter crop price">
+                      </div>
+                      <div class="form-group">
+                        <label for="input8" class="i2">Crop Quantity (per Quintal)</label>
+                        <input type="number" class="form-control" id="maize_quantity" placeholder="Enter crop quantity">
+                      </div>
+<br>
+                      <p class="crop">Millets</p>
+                      <div class="form-group">
+                        <label for="input9" class="i2">Crop Price (per Quintal)</label>
+                        <input type="number" class="form-control" id="millets_price" placeholder="Enter crop price">
+                      </div>
+                      <div class="form-group">
+                        <label for="input9" class="i2">Crop Quantity (per Quintal)</label>
+                        <input type="number" class="form-control" id="millets_quantity" placeholder="Enter crop quantity">
+                      </div>
+<br>
+                      <p class="crop">Jute</p>
+                      <div class="form-group">
+                        <label for="input10" class="i2">Crop Price (per Quintal)</label>
+                        <input type="number" class="form-control" id="jute_price" placeholder="Enter crop price">
+                      </div>
+                      <div class="form-group">
+                        <label for="input10" class="i2">Crop Quantity (per Quintal)</label>
+                        <input type="number" class="form-control" id="jute_quantity" placeholder="Enter crop quantity">
+                      </div>
+                      <br>
+                      <p class="crop">Cotton</p>
+                      <div class="form-group">
+                        <label for="input11" class="i2">Crop Price (per Quintal)</label>
+                        <input type="number" class="form-control" id="cotton_price" placeholder="Enter crop price">
+                      </div>
+                      <div class="form-group">
+                        <label for="input11" class="i2">Crop Quantity (per Quintal)</label>
+                        <input type="number" class="form-control" id="cotton_quantity" placeholder="Enter crop quantity">
+                      </div>
+
+                    </div>
+                    <br>              
+                  <div class="form-check">
+                    <input type="submit" name="" value="Save" id="getdoc">
+                    </div>
+                    
+                  </form>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+      <br>
+<br>
+
+
+
+<footer>
+  <div class="text-center">
+      <h4 class="font-weight-bold">Follow us</h4>
+      <div class="d-flex flex-row justify-content-center">
+          <span><i class="fab fa-facebook fa-2x"></i></span>
+          <span><i class="fab fa-twitter fa-2x"></i></span>
+          <span><i class="fab fa-instagram fa-2x"></i></span>
+          <span><i class="fab fa-pinterest fa-2x"></i></span>
+          <!-- <span><i class="fab -fa-facebook fa-2x"></i></span> -->
+      </div>
+      <p>&copy;Copyright reserved</p>
+      <div class="top">
+          <a href="#"><i class="fas fa-arrow-circle-up fa-2x"></i></a>
+      </div>
+  </div>
+</footer>
+
+
+<script type="module" src="../js files/firebse.mjs"></script>
+<script type="module" src="../js files/main1.mjs"></script>
+
+
+<!-- <script type="module" src="./main.mjs"></script> -->
+</body>
+</html>

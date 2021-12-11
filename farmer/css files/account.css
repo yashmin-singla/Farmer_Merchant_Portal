@@ -1,0 +1,212 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: #dad9d9ea;
+    font-size: 15px; 
+     line-height: 1;
+     box-sizing: border-box; 
+    top: 0;
+    left: 0;
+
+}
+
+img{
+    margin-left: -15px;
+    width: 90px;
+    height: 90px;
+}
+ul{
+
+    list-style: none;
+    
+}
+
+
+.navbar {
+    background: rgb(22, 21, 21);
+    padding: 3rem 2rem;
+    min-height: 12vh;
+    overflow: auto;
+    /* background: black; */
+    
+}
+
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+
+}
+ .navbar-toggler{
+     border: none;
+
+} 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.navbar-toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    color: white;
+}
+
+
+ a{
+  
+    text-decoration: none;
+   color: rgba(34,54,69, 0.7);
+   font-weight:500 ;
+}
+.nav-link{
+    color:white;
+}
+
+ a:hover{
+    background: gray;
+    
+}
+
+
+
+
+
+section{
+    position: relative;
+    /* min-height: 100vh; */
+    /* background: #f3f0ee96; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+
+} 
+section .container .user .formBx form .i1,section .container .user .formBx form .crop{
+    font-weight: 600;
+    font-size: large;
+}
+section .container .user .formBx form .i2{
+    font-weight: 500;
+    font-size: small;
+}
+ /* section .container{ */
+    /* position: relative; */
+    /* width: 800px; */
+    /* height: 500px; */
+    /* background: #fff; */
+    /* box-shadow: 0 15px 50px rgba(0,0,0,0.1); */
+    /* overflow: hidden;  */
+    /* border: 2px solid black; */
+
+/* }  */
+/* section .container .user{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    
+
+/* } */ */
+
+section .container .user .formBx{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 1s;
+    /* border: 1.5px solid rgb(68, 68, 68); */
+
+}
+section .container .user .formBx form h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+}
+section .container .user .formBx form input{
+position: relative;
+width: 100%;
+padding: 10px;
+background: #f5f5f5;
+/* color: #333; */
+border: none;
+outline: none;
+box-shadow: none;
+margin: 8px;
+font-size: 14px;
+letter-spacing: 1px;
+font-weight: 300;
+
+}
+
+
+
+section .container .user .formBx form input[type="submit"]{
+    max-width: 100px;
+    background: #677eff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    background: #000;
+    padding-top: 2%;
+    margin-top: 15px;
+    position: relative;
+}
+/* .text-center h4{
+color: #dbc1ac;
+
+} */
+footer span{
+    padding: 0.3em 0.7em;
+    color: #dbc1ac;
+    transition: all 0.5s ease;
+}
+footer p{
+    color: #dbc1ac;
+    font-size: 20px;
+}
+footer .top a{
+    position: absolute;
+    right: 2%;
+    top: 69%;
+    color: #dbc1ac;
+    font-size: 20px;
+}
